@@ -11,7 +11,7 @@ import java.time.Duration;
 public class TestBaseBAClasses {
 
 
-    static WebDriver driver;
+    protected static WebDriver driver;
 
     @BeforeClass
     public static void  setup(){
